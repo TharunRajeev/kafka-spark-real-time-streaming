@@ -1,6 +1,10 @@
 # Real-time streaming analytics application with Spark and Kafka.
 A sample real-time streaming analytics application with Spark Structured Streaming and Kafka.
 
+## System architecture 
+### Design
+![Kafka Spark architect design](https://github.com/imminh123/streaming-analytics-platforms-kafka-spark/blob/main/assets/kafka_spark.png?raw=true)
+
 ### Architecture Breakdown
 1. **Tenant data sources**: In reality, our system will take real-time taxi trips data ingested by tenant system via specified Kafka topics. 
 
